@@ -23,7 +23,7 @@ setup(
     author='Bogdan Sulima',
     author_email='bogdan.sulima@gmail.com',
 
-    packages=['bwaws'],
+    py_modules=['bwaws.py'],
 
     dependency_links=[
         'https://github.com/bonya/commandr/tarball/master'

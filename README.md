@@ -7,7 +7,7 @@ Requirements:
 - git client
 
 ```shell
-sudo pip3 install git+https://github.com/bonya/bt-aws-dump.git#egg=bt-aws-dump
+sudo pip3 install -U git+https://github.com/bonya/bt-aws-dump.git#egg=bt-aws-dump
 ```
 
 Usage example:
