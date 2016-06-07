@@ -23,9 +23,7 @@ setup(
     author='Bogdan Sulima',
     author_email='bogdan.sulima@gmail.com',
 
-    # You can just specify the packages manually here if your project is
-    # simple. Or you can use find_packages().
-    # packages=find_packages(exclude=['contrib', 'docs', 'tests']),
+    packages=['bwaws'],
 
     dependency_links=[
         'https://github.com/bonya/commandr/tarball/master'
