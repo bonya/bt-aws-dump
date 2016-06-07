@@ -122,7 +122,10 @@ class View(object):
         normalize_tags(subnet)
         return subnet
 
-    def describe_images(self, image_ids):
+    def describe_images(self, image_ids=[]):
+        if not image_ids:
+            return {}
+
         images = self.ec2.describe_images(ImageIds=image_ids)['Images']
         return {i['ImageId']: i['Name'] for i in images}
 

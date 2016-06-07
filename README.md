@@ -12,11 +12,9 @@ sudo pip3 install -U git+https://github.com/bonya/bt-aws-dump.git#egg=bt-aws-dum
 
 Usage example:
 
-- load you TEST AWS Keys to environment
-
 ```shell
 
-source MY-AWS-TEST-KEYS
+source MY-AWS-TEST-KEYS  # Load you AWS keys to enviroment
 bt-aws-dump create -e TEST -s LevelC -o bt-level-c.xlsx
 
 
